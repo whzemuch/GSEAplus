@@ -1,0 +1,24 @@
+Package: GSEAplus
+Title: Extended Gene Set Enrichment Analysis Toolkit
+Version: 0.1.0
+Authors@R: 
+    person("Hanzhou", "Wang", email = "your@email.com", role = c("aut", "cre"))
+Description: Tools for running, visualizing, and comparing Gene Set Enrichment
+    Analysis (GSEA) across multiple contrasts, cell types, and omics datasets.
+    Provides ranked gene list generation, multi-contrast enrichment, heatmap
+    matrices, and publication-ready plots.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    DESeq2,
+    data.table,
+    dplyr,
+    enrichplot,
+    clusterProfiler,
+    SummarizedExperiment,
+    ComplexHeatmap,
+    circlize,
+    ggplot2,
+    grid
+RoxygenNote: 7.3.1
