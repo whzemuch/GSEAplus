@@ -3,6 +3,7 @@
 export(create_star_adder)
 export(draw_heatmap)
 export(extract_plot_mats)
+export(get_gsea)
 export(gseaplot_with_stats)
 export(make_geneList)
 export(make_geneLists)

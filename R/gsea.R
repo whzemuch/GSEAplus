@@ -34,6 +34,9 @@ make_geneLists <- function(res_df) {
 }
 
 get_gsea <- function(gsea_lst, cell, contrast) {
+  #' extract gsea results for plotting
+  #' @export
+  #'
   if (!cell %in% names(gsea_lst)) {
     stop(paste("Cell type not found:", cell))
   }
